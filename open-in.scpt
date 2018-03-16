@@ -22,9 +22,9 @@ on open (theList)
 	openApp(theList)
 end open
 
--- open in App (vscode as an example)
+-- open in App (Terminal as an example)
 on openApp(listOfAliases)
-	tell application "Visual Studio Code"
+	tell application "Terminal"
 		activate
 		open listOfAliases
 	end tell
